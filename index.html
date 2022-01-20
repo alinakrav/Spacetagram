@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="title" property="og:title" content="Shopify Challenge 2022">
+        <meta name="description" property="og:description" content="Website made for the Frontend Shopify Challenge.">
+        <meta name="author" content="Alina Kravchenko">
+        <title>Shopify Challenge (Front-End)</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <h1 id="pageTitle">Spacetagram</h1>
+        <btn id="circle_menu" onclick="menu()"></btn><h1 id="menu">&#8801</h1></btn>
+        <div id="overlay" class="transparent"><h1 onclick="openFeed()" class="menuOption" id="feedTitle">Feed</h1><h1 onclick="openLikes()" class="menuOption" id="likesTitle">My Likes</h1></div>
+
+        <div id="results">
+        </div>
+    </body>
+</html>
