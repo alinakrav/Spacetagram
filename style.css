@@ -177,7 +177,7 @@ h3 {
 .title { 
     padding: 5px;
     float: left;
-    max-width: 85%;
+    max-width: calc(100% - 55px);
     word-wrap: break-word;
     font-size:x-large;
     color: rgb(255, 255, 255);
@@ -218,15 +218,15 @@ h3 {
 	position: absolute;
 	height: 75%;
     width: 75%;
-    padding: 5px 4px;
+    padding: 6px 5px;
 }
 .circle_heart {
     float: right;
-    bottom: -5px;
+    bottom: -8px;
 	position: relative;
 	border-radius: 50%;
-	height: 27px ;
-	width: 27px ;
+	height: 40px ;
+	width: 40px ;
     -webkit-transition:background-color .5s ease;
     -moz-transition:background-color .5s ease;
     -ms-transition:background-color .5s ease;

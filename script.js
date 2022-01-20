@@ -5,7 +5,7 @@ var nResults = 10;
 
 window.addEventListener('load', openFeed); 
 window.onscroll = function(ev) {
-    if (currScreen == 'feed' && (window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+    if (currScreen == 'feed' && nResults < 96 && (window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
         loadMore();
     }
 };
