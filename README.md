@@ -1,7 +1,7 @@
 # [ShopifyChallenge: Spacetagram](https://alinakrav.github.io/Spacetagram)
 ###### Powered by NASA's Astronomy Picture of the Day</span>
 
-Go to https://alinakrav.github.io/Spacetagram to see it in action :)
+Go to [alinakrav.com/Spacetagram](https://alinakrav.github.io/Spacetagram) to see it in action :)
 
 ### Details you may have missed
 * Simply click on the image description to see more, and click again to see less.
